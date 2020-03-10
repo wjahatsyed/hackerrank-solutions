@@ -2,6 +2,7 @@ package com.wajahat.hackerrank.ipk;
 
 /**
  * Created by Syed Wajahat on 3/10/2020.
+ *
  */
 public class MinimumSwaps2 {
     public static void main(String[] args) {
