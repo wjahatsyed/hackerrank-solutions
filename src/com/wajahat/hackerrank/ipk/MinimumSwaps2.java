@@ -2,9 +2,6 @@ package com.wajahat.hackerrank.ipk;
 
 /**
  * Created by Syed Wajahat on 3/10/2020.
- * Testing user issue on GitHub
- * Testing
- *
  */
 public class MinimumSwaps2 {
     public static void main(String[] args) {
@@ -13,9 +10,6 @@ public class MinimumSwaps2 {
     }
 
     static int minimumSwaps(int[] arr) {
-        if (arr.length == 100000) {
-            return 99992;
-        }
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != i + 1) {
